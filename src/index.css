@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .bg-light {
+        background: #FEFCFB;
+    }
+}
+
+@layer base {
+    body {
+        @apply bg-light;
+    }
+
+}
